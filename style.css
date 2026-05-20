@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    padding:50px;
+}
+.section-one
+{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+.section-one__role
+{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.section-one__contact
+{
+    margin-top: 10px;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: orange;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.section-one__name
+{
+    font-size: 60px;
+}
+.section-two,.section-three,.section-four,.section-five
+{
+    margin-top: 20px;
+}
+.section-three__desc li,.section-four li
+{
+     list-style: none;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five a{
+    color: aqua;
+}
+.section-three
+{
+    background-color: rgb(136, 89, 180);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.section-four{
+    background-color:rgb(223, 106, 63);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.contact-form
+{
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__email,.contact-form__msg,.contact-form__submit
+{
+    margin-top: 10px;
+}
+.contact-form__input,.contact-form__email,.contact-form__msg
+{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+}
+.contact-form__msg:hover
+{
+    background-color: orange;
+}
+.contact-form__input:hover{
+    background-color: orange;
+}
+.contact-form__email:hover{
+    background-color: orange;
+}
+.contact-form__submit
+{
+    padding: 10px;
+    background-color: aqua;
+    border: none;
+    font-size: 15px;
+}
+.contact-form__submit:hover{
+    background-color:greenyellow;
+}
